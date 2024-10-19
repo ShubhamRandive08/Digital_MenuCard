@@ -1,0 +1,55 @@
+.input{
+    border: 1rem;
+    border-radius: .4rem;
+    padding: .7rem;
+    font-size: 1.4rem;
+    outline: none;
+    width: 98%;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    background: rgb(217, 213, 213);
+}
+
+.uptQty{
+    border: none;
+    outline: none;
+    width: 98%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    font-weight: bolder;
+    background: rgb(30, 178, 195);
+    border-radius: 3rem;
+    box-shadow: 0 0 .4rem black;
+}
+
+.uptQty:hover{
+    transition: .5s;
+    box-shadow: 0 0 4rem rgb(5, 191, 243);
+    background: black ;
+    color: white ;
+}
+
+.canQty{
+    border: none;
+    outline: none;
+    width: 98%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    font-weight: bolder;
+    background: rgb(235, 127, 26);
+    border-radius: 3rem;
+    box-shadow: 0 0 .4rem black;
+}
+
+.canQty:hover{
+    transition: .5s;
+    background: black ;
+    box-shadow: 0 0 4rem rgb(235, 127, 26);
+    color: white ;
+}

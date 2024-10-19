@@ -1,0 +1,86 @@
+.delBtn{
+    /* display: block;
+    margin: auto; */
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2rem black;
+    background: red;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bolder;
+    padding: .3rem .5rem;
+}
+
+.delBtn:hover{
+    color: black;
+    opacity: .8;
+    transition: .1s;
+    font-weight: bolder;
+    box-shadow: 0 0 5rem gray;
+}
+
+.uptBtn{
+    /* display: block;
+    margin: auto; */
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2rem black;
+    background: rgb(8, 120, 225);
+    color: white;
+    border-radius: 1rem;
+    font-weight: bolder;
+    padding: .3rem .5rem;
+}
+
+.uptBtn:hover{
+    color: black;
+    opacity: .8;
+    transition: .1s;
+    font-weight: bolder;
+    box-shadow: 0 0 5rem gray;
+}
+
+/* Styling for the add food group input */
+
+.addBtnInput{
+    
+    border: 1rem;
+    border-radius: .4rem;
+    padding: .7rem;
+    font-size: 1.4rem;
+    outline: none;
+    width: 98%;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    background: rgb(217, 213, 213);
+}
+
+.addBtnInput::placeholder{
+    color: black;
+}
+
+/* Stayling for add food group btn */
+.addBtn{
+    border: none;
+    outline: none;
+    width: 98%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    font-weight: bolder;
+    background: rgb(18, 145, 18);
+    border-radius: 3rem;
+    box-shadow: 0 0 .4rem black;
+}
+
+.addBtn:hover{
+    transition: .5s;
+    background:rgb(17, 198, 17) ;
+}
+
+.headerS{
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+/* 
+
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.heding{
+    align-items: center;
+    background-color: aqua;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around; /* or space-between, center, etc. */
+   /*flex-wrap: wrap; /* allows cards to wrap to the next line on smaller screens */
+    /*padding: 20px;
+
+}
+
+.card1 ,.card2 ,.card3 ,.card4 ,.card5 {
+    width: 25rem;
+    box-shadow: 0 0 1em rgb(8, 8, 8);
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+} */

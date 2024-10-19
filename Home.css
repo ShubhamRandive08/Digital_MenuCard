@@ -1,0 +1,19 @@
+.divs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    height: 9rem;
+}
+
+.ttl1{
+    font-weight: bolder;
+    font-size: 2rem;
+    background: rgb(175, 156, 156);
+
+}
+
+.ttl1:hover{
+    background: rgb(207, 200, 200) ;
+    transition: .5s;
+    cursor: grab;
+}

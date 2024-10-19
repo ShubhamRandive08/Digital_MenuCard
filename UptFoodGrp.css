@@ -1,0 +1,66 @@
+ .inputBoxUpt{
+    border: 1rem;
+    border-radius: .4rem;
+    padding: .7rem;
+    font-size: 1.4rem;
+    outline: none;
+    width: 98%;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    background: rgb(217, 213, 213);
+}
+
+ .up{
+    border: none;
+    outline: none;
+    width: 98%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    font-weight: bolder;
+    background: rgb(174, 104, 34);
+    border-radius: 3rem;
+    box-shadow: 0 0 .4rem black;
+}
+
+.up:hover{
+    transition: .5s;
+    background:red ;
+}  
+
+.uptHeader{
+    text-align: center;
+    /* box-shadow: 0 0 3rem black; */
+    /* border-radius: 1rem; */
+}
+
+.CrdMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: none;
+}
+
+.can{
+    border: none;
+    outline: none;
+    width: 98%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    font-weight: bolder;
+    background: rgb(221, 204, 14);
+    border-radius: 3rem;
+    box-shadow: 0 0 .4rem black;
+}
+
+.can:hover{
+    transition: .5s;
+    background: black ;
+    color: white ;
+}

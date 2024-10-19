@@ -1,0 +1,40 @@
+/* Styling for the add food group input */
+
+.addBtnInput{
+    
+    border: 1rem;
+    border-radius: .4rem;
+    padding: .7rem;
+    font-size: 1.4rem;
+    outline: none;
+    width: 98%;
+    color: black;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    background: rgb(217, 213, 213);
+}
+
+.addBtnInput::placeholder{
+    color: black;
+}
+
+/* Stayling for add food group btn */
+.addBtn{
+    border: none;
+    outline: none;
+    width: 98%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    font-weight: bolder;
+    background: rgb(18, 145, 18);
+    border-radius: 3rem;
+    box-shadow: 0 0 .4rem black;
+}
+
+.addBtn:hover{
+    transition: .5s;
+    background:rgb(17, 198, 17) ;
+}

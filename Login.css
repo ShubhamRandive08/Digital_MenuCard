@@ -1,0 +1,75 @@
+ body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-image: url('./assets/HotelIamge.jpg'); */
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border-radius: 1rem; */
+}
+
+.containerMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 0 0 2rem black;
+ } 
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    box-shadow: 0 0 2rem black;
+    padding: 4rem;
+    border-radius: 2rem;
+
+}
+
+.LoginBut{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2rem gray;
+    border-radius: 1rem ;
+    font-weight: bolder;
+    background-color: aquamarine;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.LoginBut:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    box-shadow: 0 0 2rem brown;
+} 
+
+.handlePwd {
+    box-shadow: 0 0 2rem black;
+    outline: none;
+    border: none;
+    border-radius: .7rem;
+    padding: .6rem;
+}
+
+.handlePwd:hover{
+    box-shadow: 0 0 4rem rgb(4, 6, 113);
+    transition: .5s;
+
+}

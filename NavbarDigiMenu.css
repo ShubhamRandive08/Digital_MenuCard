@@ -1,0 +1,21 @@
+.eleOfNavbar{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.adminText{
+    font-weight: bolder;
+}
+
+.logout{
+    float: right;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    background: none;
+    color: red;
+    font-weight: bolder;
+}
